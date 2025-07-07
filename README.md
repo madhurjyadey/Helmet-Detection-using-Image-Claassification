@@ -10,27 +10,27 @@ The primary goal of this project is to develop an image classification model cap
 ## 3.3 Dataset: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-znysj/dataset/1)
 ## 3.4 Development Platform: Virtual Studio Code
 # 4.Methodology
-## 4.1 Data Collection:
+## 4.1. Data Collection:
 The first step in developing a machine learning model for tasks like helmet detection is data collection. This involves gathering a large and diverse set of labelled images that show people both wearing and not wearing helmets.
-## 4.2 Data Preprocessing:
+## 4.2. Data Preprocessing:
 Once the data is collected, it needs to be prepared for training, which includes resizing all images to a uniform dimension, normalizing pixel values to fall within a standard range, and applying data augmentation techniques. The dataset is then split into training, validation, and test sets to facilitate proper
 evaluation during and after training.
-## 4.4 Model Design:
+## 4.4. Model Design:
 Convolutional Neural Networks (CNNs) are commonly used due to their ability to detect spatial patterns in images. The model typically includes convolutional layers to extract features, pooling layers to reduce dimensionality, and fully connected layers to make the final classification decision.
-## 4.5 Compilation:
+## 4.5. Compilation:
 By selecting a loss function appropriate for the task, an optimizer such as Adam or SGD to adjust the model&#39;s weights,and evaluation metrics like accuracy, precision, and recall to monitor performance.
-## 4.5 Model Training:
+## 4.5. Model Training:
 During training, the model processes the training images in smaller groups called batches. For each batch, the model makespredictions, compares them to the actual labels, calculates the error (loss), and updates the weights using backpropagation.This process continues until all data has been seen once,marking the end of one epoch.
-## 4.6 Validation:
+## 4.6. Validation:
 After each epoch, the model&#39;s performance is evaluated using the validation dataset. This helps to monitor whether the model is overfitting or generalizing well to new data.
-## 4.7 Testing:
+## 4.7. Testing:
 Once training is complete, the final evaluation is done using the test dataset, which contains images the model has never seen before.
-## 4.8 Prediction:
+## 4.8. Prediction:
 After successful testing, the trained model can be used to make predictions on new, real-world images. Given an input image, the model will output a probability or label indicating whether a helmet is present or not.
-## 4.9 Deployment:
+## 4.9. Deployment:
 Finally, the model is deployed into a practical application. It can be embedded in a surveillance system, a mobile app, or a factory monitoring tool. The trained model file is loaded, and live video streams or images are fed to it in real-time to detect helmet usage and generate alerts for violations.
 
-# 5 Model Outputs and Visualizations
+# 5. Model Outputs and Visualizations
 ![image](https://github.com/user-attachments/assets/0670e4f9-bc04-456e-8ce8-6543bb013eca)
 
 Fig: The following code snippet is to run the train data
@@ -59,7 +59,7 @@ Fig: The following test data is run in the windows command prompt
 
 Fig: The following Output
 
-# 6 Statistical Results:
+# 6. Statistical Results:
 
 ![confusion_matrix](https://github.com/user-attachments/assets/7829ed16-f1d8-411b-ae2b-98993e513367)
 
@@ -123,59 +123,36 @@ This composite figure tracks key training and validation metrics over 100 epochs
 precision/recall, while the bottom row presents validation losses and mean average precision (mAP) scores. The decreasing loss values and increasing
 mAP indicate effective model learning and improved detection accuracy with more training.
 
-11.7 Results
+## 7. Results
+![image](https://github.com/user-attachments/assets/817c15ac-2ad0-4d47-8d8a-fa294e6d989f)
 
 Fig: Model Output—No Helmet Detected
 
-The model accurately identified the absence of a helmet, labeling the
-individual as “no_helmet” with high confidence. This demonstrates the
-system’s effectiveness in flagging safety non-compliance before protective
-equipment is worn.
+The model accurately identified the absence of a helmet, labeling the individual as “no_helmet” with high confidence. This demonstrates the system’s effectiveness in flagging safety non-compliance before protective equipment is worn.
 
-
+![image](https://github.com/user-attachments/assets/0f6391f2-e703-4e54-946d-8ba7f180b876)
 
 Figure 2: Model Output—Helmet Being Worn
 
-As the helmet is being put on, the model successfully detected and labelled
-the action as “Helmet_on_head,” indicating its ability to recognize the
+As the helmet is being put on, the model successfully detected and labelled the action as “Helmet_on_head,” indicating its ability to recognize the
 transition to compliance with safety protocols.
 
-11.8 Advantages of the Project
+# 8. Advantages of the Project
 
-1. Real-Time Monitoring:
-Machine learning models, especially those integrated with video surveillance
-systems, enable real-time helmet detection. This allows for immediate
-identification of non-compliance, improving safety response times in
-industrial settings.
-2. High Accuracy and Consistency:
-Unlike manual monitoring, which is prone to human error and fatigue,
-trained models provide consistent and reliable detection accuracy, even in
-complex or crowded environments.
-3. Scalability:
-Once developed, the model can be deployed across multiple locations
-
-
-without the need to train new staff. It can also be scaled to process inputs
-from several cameras simultaneously with minimal additional cost.
-4. Improved Workplace and Road Safety:
-Early detection and alerts help in enforcing helmet usage, which directly
-contributes to reducing injuries and fatalities caused by head injuries in both
+## 8.1. Real-Time Monitoring:
+Machine learning models, especially those integrated with video surveillance systems, enable real-time helmet detection. This allows for immediate identification of non-compliance, improving safety response times in industrial settings.
+## 8.2. High Accuracy and Consistency:
+Unlike manual monitoring, which is prone to human error and fatigue, trained models provide consistent and reliable detection accuracy, even in complex or crowded environments.
+## 8.3. Scalability:
+Once developed, the model can be deployed across multiple locations without the need to train new staff. It can also be scaled to process inputs from several cameras simultaneously with minimal additional cost.
+## 8.4. Improved Workplace and Road Safety:
+Early detection and alerts help in enforcing helmet usage, which directly contributes to reducing injuries and fatalities caused by head injuries in both
 industrial and road traffic scenarios.
-5. Integration with Other Systems:
-The model can be integrated with dashboards for alerts, reporting, or even
-denial of entry to those not wearing helmets. This enhances the overall safety
+## 8.5. Integration with Other Systems:
+The model can be integrated with dashboards for alerts, reporting, or even denial of entry to those not wearing helmets. This enhances the overall safety
 infrastructure.
-6. Learning and Improvement Over Time:
-With more data and feedback, the model can be retrained to improve
-performance and adapt to new environments or helmet designs, making it
-more robust over time.
-11.9 Conclusion
-The implementation of a machine learning-based helmet detection system
-presents a powerful solution to enhance safety compliance industrial
-environments. By leveraging image classification techniques, such systems
-can automatically and accurately identify whether individuals are wearing
-helmets, significantly reducing the reliance on manual supervision. The
-model operates with high accuracy, consistency, and speed, making it ideal
-for real-time applications such as surveillance monitoring and access control.
-As technology advances, such systems will continue to improve, offering
-even more robust and intelligent
+## 8.6. Learning and Improvement Over Time:
+With more data and feedback, the model can be retrained to improve performance and adapt to new environments or helmet designs, making it more robust over time.
+
+# 9. Conclusion
+The implementation of a machine learning-based helmet detection system presents a powerful solution to enhance safety compliance industrial environments. By leveraging image classification techniques, such systems can automatically and accurately identify whether individuals are wearing helmets, significantly reducing the reliance on manual supervision. The model operates with high accuracy, consistency, and speed, making it ideal for real-time applications such as surveillance monitoring and access control. As technology advances, such systems will continue to improve, offering even more robust and intelligent
