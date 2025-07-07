@@ -50,7 +50,9 @@ Fig: The following test data is run in the windows command prompt
 
 Fig: The following Output
 
-11.6 Statistical Results:
+# 6 Statistical Results:
+
+![confusion_matrix](https://github.com/user-attachments/assets/7829ed16-f1d8-411b-ae2b-98993e513367)
 
 
 
