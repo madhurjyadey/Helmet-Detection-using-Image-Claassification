@@ -5,10 +5,10 @@ is the mandatory use of *Personal Protective Equipment (PPE)* such as helmets.
 # 2.Objective
 The primary goal of this project is to develop an image classification model capable of detecting whether a person in an image is wearing a helmet or not. This aids in enhancing safety compliance and reducing the risk of injuries in workplaces and traffic environments.
 # 3.Tools and Technologies Used
-Programming Language: Python
-Libraries: PyTorch, YOLO
-Dataset: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-znysj/dataset/1)
-Development Platform: Virtual Studio Code
+## 3.1 Programming Language: Python
+## 3.2 Libraries: PyTorch, YOLO
+## 3.3 Dataset: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-znysj/dataset/1)
+## 3.4 Development Platform: Virtual Studio Code
 # 4.Methodology
 ## 4.1 Data Collection:
 The first step in developing a machine learning model for tasks like helmet detection is data collection. This involves gathering a large and diverse set of labelled images that show people both wearing and not wearing helmets.
@@ -31,23 +31,19 @@ After successful testing, the trained model can be used to make predictions on n
 Finally, the model is deployed into a practical application. It can be embedded in a surveillance system, a mobile app, or a factory monitoring tool. The trained model file is loaded, and live video streams or images are fed to it in real-time to detect helmet usage and generate alerts for violations.
 
 # 5 Model Outputs and Visualizations
-
+![image](https://github.com/user-attachments/assets/0670e4f9-bc04-456e-8ce8-6543bb013eca)
 Fig: The following code snippet is to run the train data
-
-
-
+![image](https://github.com/user-attachments/assets/c649b758-5bf5-45a2-bbe5-9cc2fa64673b)
 Fig: The following train data is run in the windows command prompt
-
+![image](https://github.com/user-attachments/assets/f0c17850-5c81-4d9c-8ada-431615ae63c1)
 Fig: The terminal starts the epoch process
-
+![image](https://github.com/user-attachments/assets/a6506012-72b3-494e-b2de-c3ae7f592540)
 Fig: The ending phase of the epoch with accuracy given to the classes present
-
-
-
+![image](https://github.com/user-attachments/assets/93922edf-0714-4873-972d-dc87a5bac731)
 Fig: The code snippet to run the test dataset
-
+![image](https://github.com/user-attachments/assets/fc66b083-0587-4cbb-97d8-96fba93255df)
 Fig: The following test data is run in the windows command prompt
-
+![image](https://github.com/user-attachments/assets/94822029-4c9f-4cb0-bc9b-a505a083ecc4)
 Fig: The following Output
 
 # 6 Statistical Results:
@@ -123,7 +119,7 @@ individual as “no_helmet” with high confidence. This demonstrates the
 system’s effectiveness in flagging safety non-compliance before protective
 equipment is worn.
 
-72
+
 
 Figure 2: Model Output—Helmet Being Worn
 
@@ -145,7 +141,7 @@ complex or crowded environments.
 3. Scalability:
 Once developed, the model can be deployed across multiple locations
 
-73
+
 without the need to train new staff. It can also be scaled to process inputs
 from several cameras simultaneously with minimal additional cost.
 4. Improved Workplace and Road Safety:
