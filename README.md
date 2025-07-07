@@ -54,81 +54,65 @@ Fig: The following Output
 
 ![confusion_matrix](https://github.com/user-attachments/assets/7829ed16-f1d8-411b-ae2b-98993e513367)
 
-                                Fig: Confusion Matrix for Helmet Detection Model
+Fig: Confusion Matrix for Helmet Detection Model
 
-This confusion matrix visualizes the raw prediction results of the helmet
-detection model across all classes, including “Helmet_on_head,”
-“Helmet_off_head,” “Helmet_poor_fit,” “hat,” “no_helmet,” “wrong_helmet
-_type,” and “background.” The diagonal cells represent correct predictions,
-while off-diagonal cells indicate misclassifications. The matrix helps identify
-which classes are most frequently confused, guiding further model
+This confusion matrix visualizes the raw prediction results of the helmet detection model across all classes, including “Helmet_on_head,”
+“Helmet_off_head,” “Helmet_poor_fit,” “hat,” “no_helmet,” “wrong_helmet_type,” and “background.” The diagonal cells represent correct predictions,
+while off-diagonal cells indicate misclassifications. The matrix helps identifywhich classes are most frequently confused, guiding further model
 improvement.
+
+![confusion_matrix_normalized](https://github.com/user-attachments/assets/28457507-52c8-486d-935a-dc4c898a4e52)
 
 Fig: Normalized Confusion Matrix for Helmet Detection Model
 
-67
-This normalized confusion matrix presents the proportion of correct and
-incorrect predictions for each class, with values ranging from 0 to 1. High
-values along the diagonal indicate strong model performance for those
-classes. Normalization allows for clearer comparison between classes,
-especially when class distributions are imbalanced.
+This normalized confusion matrix presents the proportion of correct andincorrect predictions for each class, with values ranging from 0 to 1. High
+values along the diagonal indicate strong model performance for thoseclasses. Normalization allows for clearer comparison between classes,especially when class distributions are imbalanced.
+![F1_curve](https://github.com/user-attachments/assets/88d3ae00-bc51-4726-b682-f55698ea2adb)
 
 Fig: F1-Confidence Curve for Each Class
 
-The F1-Confidence curve illustrates the relationship between the model’s
-confidence threshold and the F1-score for each class. Each line represents a
-different class, while the thick blue line shows the average F1-score across
-all classes. This graph helps determine the optimal confidence threshold to
+The F1-Confidence curve illustrates the relationship between the model’s confidence threshold and the F1-score for each class. Each line represents a
+different class, while the thick blue line shows the average F1-score across all classes. This graph helps determine the optimal confidence threshold to
 maximize the model’s overall precision and recall balance.
 
-68
+![labels](https://github.com/user-attachments/assets/ecbd4d3b-97e3-4337-b536-734ccc3cee64)
 
 Fig: Dataset Distribution and Bounding Box Analysis
 
-The top-left bar chart shows the distribution of labelled instances for each
-class in the dataset, highlighting class balance. The top-right plot overlays all
-bounding boxes to visualize their spatial distribution. The bottom two scatter
-plots display the normalized centre coordinates (x, y) and the width/height of
-bounding boxes, providing insight into object size and location diversity in
-the dataset.
+The top-left bar chart shows the distribution of labelled instances for each class in the dataset, highlighting class balance. The top-right plot overlays all
+bounding boxes to visualize their spatial distribution. The bottom two scatter plots display the normalized centre coordinates (x, y) and the width/height of bounding boxes, providing insight into object size and location diversity in the dataset.
+
+![P_curve](https://github.com/user-attachments/assets/d5f07bca-658d-4b1b-958e-ac91dc297fa1)
 
 Fig: Precision-Confidence Curve
 
-69
-This graph displays the relationship between model confidence and precision
-for each class in the helmet detection task. Each line represents a different
-class, while the thick blue line shows the average precision across all classes.
-The plot helps determine the optimal confidence threshold to maximize
-precision, ensuring that predictions labelled as “helmet” or “no helmet” are
-reliable.
+This graph displays the relationship between model confidence and precision for each class in the helmet detection task. Each line represents a different
+class, while the thick blue line shows the average precision across all classes. The plot helps determine the optimal confidence threshold to maximize
+precision, ensuring that predictions labelled as “helmet” or “no helmet” are reliable.
+
+![PR_curve](https://github.com/user-attachments/assets/7ada66b4-a9f2-4ace-9685-f9867f4c43c5)
 
 Fig: Precision-Recall Curve
 
-This curve illustrates the trade-off between precision and recall for each
-class in the helmet detection model. The area under each curve (mAP@0.5)
-is a key metric for evaluating detection performance. The thick blue line
-represents the average performance across all classes, with higher curves
+This curve illustrates the trade-off between precision and recall for each class in the helmet detection model. The area under each curve (mAP@0.5)
+is a key metric for evaluating detection performance. The thick blue line represents the average performance across all classes, with higher curves
 indicating better model capability to balance precision and recall
 
-70
+![R_curve](https://github.com/user-attachments/assets/3ac4ee63-5522-4e2c-9fd3-9f558f45d717)
 
 Fig: Recall-Confidence Curve
 
-This diagram shows how recall varies with the model’s confidence threshold
-for each class. The thick blue line indicates the overall recall trend across all
-classes. This curve is useful for selecting a threshold that maximizes the
-model’s ability to detect all true helmet and non-helmet cases, minimizing
+This diagram shows how recall varies with the model’s confidence threshold for each class. The thick blue line indicates the overall recall trend across all
+classes. This curve is useful for selecting a threshold that maximizes the model’s ability to detect all true helmet and non-helmet cases, minimizing
 missed detections.
+
+![results](https://github.com/user-attachments/assets/9ffb4b21-4606-4ea6-a1b5-caeab4877b53)
 
 Fig: Training and Validation Metrics Over Epochs
 
-71
-This composite figure tracks key training and validation metrics over 100
-epochs. The top row shows training losses (box, class, and DFL losses) and
-precision/recall, while the bottom row presents validation losses and mean
-average precision (mAP) scores. The decreasing loss values and increasing
-mAP indicate effective model learning and improved detection accuracy
-with more training.
+This composite figure tracks key training and validation metrics over 100 epochs. The top row shows training losses (box, class, and DFL losses) and
+precision/recall, while the bottom row presents validation losses and mean average precision (mAP) scores. The decreasing loss values and increasing
+mAP indicate effective model learning and improved detection accuracy with more training.
 
 11.7 Results
 
