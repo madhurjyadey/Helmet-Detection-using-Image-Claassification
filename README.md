@@ -1,53 +1,27 @@
 # Helmet-Detection-using-Image-Claassification
-# 1. Introduction
-By taking a brief idea from the NRL Project Safety Assistance, the project is about the detection if the person is wearing helmet or not through image
-classification techniques in Machine Learning and Computer Vision. In industrial environments like oil refineries, ensuring the safety of personnel, it
+# 1.Introduction
+By taking a brief idea from the NRL Project Safety Assistance, the project is about the detection if the person is wearing helmet or not through image classification techniques in Machine Learning and Computer Vision. In industrial environments like oil refineries, ensuring the safety of personnel, it
 is the mandatory use of *Personal Protective Equipment (PPE)* such as helmets.
-# 2. Objective
-The primary goal of this project is to develop an image classification model capable of detecting whether a person in an image is wearing a helmet or
-not. This aids in enhancing safety compliance and reducing the risk of injuries in workplaces and traffic environments.
-# Tools and Technologies Used
-## Programming Language: Python
-## Libraries: PyTorch, YOLO
-## Dataset: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-znysj/dataset/1)
-## Development Platform: Virtual Studio Code
-11.4  Methodology
-
-1. Data Collection:
-
-62
-The first step in developing a machine learning model for tasks
-like helmet detection is data collection. This involves gathering
-a large and diverse set of labelled images that show people both
-wearing and not wearing helmets.
-2. Data Preprocessing:
-Once the data is collected, it needs to be prepared for training,
-which includes resizing all images to a uniform dimension,
-normalizing pixel values to fall within a standard range, and
-applying data augmentation techniques. The dataset is then split
-into training, validation, and test sets to facilitate proper
+# 2.Objective
+The primary goal of this project is to develop an image classification model capable of detecting whether a person in an image is wearing a helmet or not. This aids in enhancing safety compliance and reducing the risk of injuries in workplaces and traffic environments.
+# 3.Tools and Technologies Used
+Programming Language: Python
+Libraries: PyTorch, YOLO
+Dataset: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-znysj/dataset/1)
+Development Platform: Virtual Studio Code
+# 4.Methodology
+## 4.1 Data Collection:
+The first step in developing a machine learning model for tasks like helmet detection is data collection. This involves gathering a large and diverse set of labelled images that show people both wearing and not wearing helmets.
+## 4.2 Data Preprocessing:
+Once the data is collected, it needs to be prepared for training, which includes resizing all images to a uniform dimension, normalizing pixel values to fall within a standard range, and applying data augmentation techniques. The dataset is then split into training, validation, and test sets to facilitate proper
 evaluation during and after training.
-3. Model Design:
-Convolutional Neural Networks (CNNs) are commonly used
-due to their ability to detect spatial patterns in images. The
-model typically includes convolutional layers to extract
-features, pooling layers to reduce dimensionality, and fully
-connected layers to make the final classification decision.
-4. Compilation:
-By selecting a loss function appropriate for the task, an
-optimizer such as Adam or SGD to adjust the model&#39;s weights,
-and evaluation metrics like accuracy, precision, and recall to
-monitor performance.
-5. Model Training:
-During training, the model processes the training images in
-smaller groups called batches. For each batch, the model makes
-predictions, compares them to the actual labels, calculates the
-error (loss), and updates the weights using backpropagation.
-
-63
-This process continues until all data has been seen once,
-marking the end of one epoch.
-6. Validation:
+## 4.4 Model Design:
+Convolutional Neural Networks (CNNs) are commonly used due to their ability to detect spatial patterns in images. The model typically includes convolutional layers to extract features, pooling layers to reduce dimensionality, and fully connected layers to make the final classification decision.
+## 4.5 Compilation:
+By selecting a loss function appropriate for the task, an optimizer such as Adam or SGD to adjust the model&#39;s weights,and evaluation metrics like accuracy, precision, and recall to monitor performance.
+## 4.5 Model Training:
+During training, the model processes the training images in smaller groups called batches. For each batch, the model makespredictions, compares them to the actual labels, calculates the error (loss), and updates the weights using backpropagation.This process continues until all data has been seen once,marking the end of one epoch.
+## Validation:
 After each epoch, the model&#39;s performance is evaluated using
 the validation dataset. This helps to monitor whether the model
 is overfitting or generalizing well to new data.
