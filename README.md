@@ -54,9 +54,7 @@ Fig: The following Output
 
 ![confusion_matrix](https://github.com/user-attachments/assets/7829ed16-f1d8-411b-ae2b-98993e513367)
 
-
-
-Fig: Confusion Matrix for Helmet Detection Model
+                                Fig: Confusion Matrix for Helmet Detection Model
 
 This confusion matrix visualizes the raw prediction results of the helmet
 detection model across all classes, including “Helmet_on_head,”
