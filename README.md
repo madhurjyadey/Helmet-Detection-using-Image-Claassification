@@ -1,17 +1,17 @@
 # Helmet-Detection-using-Image-Claassificatio
-# 11.1  Introduction
+# Introduction
 By taking a brief idea from the NRL Project Safety Assistance, the project is
 about the detection if the person is wearing helmet or not through image
 classification techniques in Machine Learning and Computer Vision. In
 industrial environments like oil refineries, ensuring the safety of personnel, it
 is the mandatory use of *Personal Protective Equipment (PPE)* such as
 helmets.
-# 11.2  Objective
+# Objective
 The primary goal of this project is to develop an image classification model
 capable of detecting whether a person in an image is wearing a helmet or
 not. This aids in enhancing safety compliance and reducing the risk of
 injuries in workplaces and traffic environments.
-11.3  Tools and Technologies Used
+# Tools and Technologies Used
 Programming Language: Python
 Libraries: PyTorch, YOLO
 Dataset: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-
