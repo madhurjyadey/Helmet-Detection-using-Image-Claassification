@@ -6,7 +6,7 @@ classification techniques in Machine Learning and Computer Vision. In
 industrial environments like oil refineries, ensuring the safety of personnel, it
 is the mandatory use of *Personal Protective Equipment (PPE)* such as
 helmets.
-11.2  Objective
+# 11.2  Objective
 The primary goal of this project is to develop an image classification model
 capable of detecting whether a person in an image is wearing a helmet or
 not. This aids in enhancing safety compliance and reducing the risk of
