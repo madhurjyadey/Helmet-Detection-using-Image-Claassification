@@ -1,4 +1,4 @@
-# Helmet-Detection-using-Image-Claassificatio
+# Helmet-Detection-using-Image-Claassification
 # Introduction
 By taking a brief idea from the NRL Project Safety Assistance, the project is
 about the detection if the person is wearing helmet or not through image
@@ -12,7 +12,7 @@ capable of detecting whether a person in an image is wearing a helmet or
 not. This aids in enhancing safety compliance and reducing the risk of
 injuries in workplaces and traffic environments.
 # Tools and Technologies Used
-Programming Language: Python
+## Programming Language: Python
 Libraries: PyTorch, YOLO
 Dataset: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-
 znysj/dataset/1)
