@@ -32,18 +32,31 @@ Finally, the model is deployed into a practical application. It can be embedded 
 
 # 5 Model Outputs and Visualizations
 ![image](https://github.com/user-attachments/assets/0670e4f9-bc04-456e-8ce8-6543bb013eca)
+
 Fig: The following code snippet is to run the train data
+
 ![image](https://github.com/user-attachments/assets/c649b758-5bf5-45a2-bbe5-9cc2fa64673b)
+
 Fig: The following train data is run in the windows command prompt
+
 ![image](https://github.com/user-attachments/assets/f0c17850-5c81-4d9c-8ada-431615ae63c1)
+
 Fig: The terminal starts the epoch process
+
 ![image](https://github.com/user-attachments/assets/a6506012-72b3-494e-b2de-c3ae7f592540)
+
 Fig: The ending phase of the epoch with accuracy given to the classes present
+
 ![image](https://github.com/user-attachments/assets/93922edf-0714-4873-972d-dc87a5bac731)
+
 Fig: The code snippet to run the test dataset
+
 ![image](https://github.com/user-attachments/assets/fc66b083-0587-4cbb-97d8-96fba93255df)
+
 Fig: The following test data is run in the windows command prompt
+
 ![image](https://github.com/user-attachments/assets/94822029-4c9f-4cb0-bc9b-a505a083ecc4)
+
 Fig: The following Output
 
 # 6 Statistical Results:
