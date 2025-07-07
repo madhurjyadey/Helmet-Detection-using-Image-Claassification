@@ -5,10 +5,10 @@ is the mandatory use of *Personal Protective Equipment (PPE)* such as helmets.
 # 2.Objective
 The primary goal of this project is to develop an image classification model capable of detecting whether a person in an image is wearing a helmet or not. This aids in enhancing safety compliance and reducing the risk of injuries in workplaces and traffic environments.
 # 3.Tools and Technologies Used
-3.1 **Programming Language**: Python
-3.2 **Libraries**: PyTorch, YOLO
-3.3 **Dataset**: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-znysj/dataset/1)
-3.4 **Development Platform**: Virtual Studio Code
+## 3.1 **Programming Language**: Python
+## 3.2 **Libraries**: PyTorch, YOLO
+## 3.3 **Dataset**: Taken From RoboFlow (https://universe.roboflow.com/wedothings/hard-hat-detector-znysj/dataset/1)
+## 3.4 **Development Platform**: Virtual Studio Code
 # 4.Methodology
 ## 4.1. Data Collection:
 The first step in developing a machine learning model for tasks like helmet detection is data collection. This involves gathering a large and diverse set of labelled images that show people both wearing and not wearing helmets.
