@@ -21,31 +21,20 @@ Convolutional Neural Networks (CNNs) are commonly used due to their ability to d
 By selecting a loss function appropriate for the task, an optimizer such as Adam or SGD to adjust the model&#39;s weights,and evaluation metrics like accuracy, precision, and recall to monitor performance.
 ## 4.5 Model Training:
 During training, the model processes the training images in smaller groups called batches. For each batch, the model makespredictions, compares them to the actual labels, calculates the error (loss), and updates the weights using backpropagation.This process continues until all data has been seen once,marking the end of one epoch.
-## Validation:
-After each epoch, the model&#39;s performance is evaluated using
-the validation dataset. This helps to monitor whether the model
-is overfitting or generalizing well to new data.
-7. Testing:
-Once training is complete, the final evaluation is done using the
-test dataset, which contains images the model has never seen
-before.
-8. Prediction:
-After successful testing, the trained model can be used to make
-predictions on new, real-world images. Given an input image,
-the model will output a probability or label indicating whether a
-helmet is present or not.
-9. Deployment:
-Finally, the model is deployed into a practical application. It can
-be embedded in a surveillance system, a mobile app, or a
-factory monitoring tool. The trained model file is loaded, and
-live video streams or images are fed to it in real-time to detect
-helmet usage and generate alerts for violations.
+## 4.6 Validation:
+After each epoch, the model&#39;s performance is evaluated using the validation dataset. This helps to monitor whether the model is overfitting or generalizing well to new data.
+## 4.7 Testing:
+Once training is complete, the final evaluation is done using the test dataset, which contains images the model has never seen before.
+## 4.8 Prediction:
+After successful testing, the trained model can be used to make predictions on new, real-world images. Given an input image, the model will output a probability or label indicating whether a helmet is present or not.
+## 4.9 Deployment:
+Finally, the model is deployed into a practical application. It can be embedded in a surveillance system, a mobile app, or a factory monitoring tool. The trained model file is loaded, and live video streams or images are fed to it in real-time to detect helmet usage and generate alerts for violations.
 
-11.5 Model Outputs and Visualizations
+# 5 Model Outputs and Visualizations
 
 Fig: The following code snippet is to run the train data
 
-64
+
 
 Fig: The following train data is run in the windows command prompt
 
@@ -53,7 +42,7 @@ Fig: The terminal starts the epoch process
 
 Fig: The ending phase of the epoch with accuracy given to the classes present
 
-65
+
 
 Fig: The code snippet to run the test dataset
 
@@ -63,7 +52,7 @@ Fig: The following Output
 
 11.6 Statistical Results:
 
-66
+
 
 Fig: Confusion Matrix for Helmet Detection Model
 
