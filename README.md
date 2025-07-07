@@ -1,5 +1,5 @@
 # Helmet-Detection-using-Image-Claassificatio
-11.1  Introduction
+# 11.1  Introduction
 By taking a brief idea from the NRL Project Safety Assistance, the project is
 about the detection if the person is wearing helmet or not through image
 classification techniques in Machine Learning and Computer Vision. In
