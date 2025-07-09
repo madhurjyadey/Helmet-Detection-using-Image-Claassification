@@ -1,0 +1,6 @@
+train: ./data/train/images
+val: ./data/valid/images
+test: ./data/test/images
+
+nc: 6
+names: ['Helmet_off_head', 'Helmet_on_head', 'Helmet_poor_fit', 'hat', 'no_helmet', 'wrong_helmet_type']
